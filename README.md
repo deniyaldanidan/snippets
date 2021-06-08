@@ -1,1 +1,4 @@
 # snippets
+
+## Available snips
+- c++
