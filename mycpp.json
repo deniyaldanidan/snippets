@@ -1,0 +1,207 @@
+{
+	"base1": {
+		"prefix": ["base1", "basic1"],
+		"body": [
+			"#include <iostream>",
+			"",
+			"using namespace std;",
+			
+			"int main(){",
+			"",
+			"$1",
+			"",
+			"return 0;",
+			"",
+			"}"
+			],
+		"description": "Basic Structure"
+	},
+	"includestring": {
+		"prefix": ["incstrin", "#inclstrin", "headstrin"],
+		"body": [
+			"#include <string>",
+			"$1"
+			],
+		"description": "HEader for string"
+	},
+	"includecmath": {
+		"prefix": ["incmath", "#inclmath", "cmath", "headmath"],
+		"body": [
+			"#include <cmath>",
+			"$1"
+			],
+		"description": "header for cmath"
+	},
+	"cout": {
+		"prefix": ["cout", "print"],
+		"body": [
+			"cout << $1 << endl;"
+			],
+		"description": "Print Statement"
+	},
+	"cin": {
+		"prefix": ["cin", "input"],
+		"body": [
+			"cout << \"Enter here: \" ;",
+			"cin >> $1 ;"
+			],
+		"description": "Input from user"
+	},
+	"cinString": {
+		"prefix": ["cinstring", "Stringinput", "inputString"],
+		"body": [
+			"cout << \"Enter here: \";",
+			"getline(cin , $1 );"
+			],
+		"description": "String Input from user"
+	},
+	"upperString": {
+		"prefix": ["upperstring", "Stringupper", "upperString"],
+		"body": [
+			"// need to include <algorithm> or <bits/stdc++.h>",
+			"transform($1.begin(), $1.end(), $1.begin(), ::toupper);"
+			],
+		"description": "to Uppercase string"
+	},
+	"lowerString": {
+		"prefix": ["lowerstring", "Stringlower", "lowerString"],
+		"body": [
+			"// need to include <algorithm> or <bits/stdc++.h>",
+			"transform($1.begin(), $1.end(), $1.begin(), ::tolower);"
+			],
+		"description": "to lowercase String"
+	},
+	"pureinclude": {
+		"prefix": ["inc", "#incl", "include"],
+		"body": [
+			"#include <$1>"
+			],
+		"description": "include"
+	},
+	"if elif else": {
+		"prefix": ["ifelif", "ifelseif"],
+		"body": [
+			"if ($1)",
+			"{",
+			"\t",
+			"}",
+			"else if ()",
+			"{",
+			"\t",
+			"}",
+			"else",
+			"{",
+			"\t",
+			"}"
+			],
+		"description": "if else-if else"
+	},
+	"ifelse": {
+		"prefix": ["ifelse", "if else"],
+		"body": [
+			"if ($1)",
+			"{",
+			"\t",
+			"}",
+			"else",
+			"{",
+			"\t",
+			"}"
+			],
+		"description": "if else"
+	},
+	"if only": {
+		"prefix": ["if", "if only"],
+		"body": [
+			"if ($1)",
+			"{",
+			"\t",
+			"}"
+			],
+		"description": "only if"
+	},
+	"else if only": {
+		"prefix": ["else if", "else if only"],
+		"body": [
+			"else if ($1)",
+			"{",
+			"\t",
+			"}"
+			],
+		"description": "only if"
+	},
+	"else only": {
+		"prefix": ["else", "else only"],
+		"body": [
+			"else",
+			"{",
+			"\t$1",
+			"}"
+			],
+		"description": "only if"
+	},
+	"ternary": {
+		"prefix": ["?:", "ternaryif", "ifelternary"],
+		"body": [
+			"$1var = (1 == 1) ? 1 : 0;"
+			],
+		"description": "ternary"
+	},
+	"switch": {
+		"prefix": ["switch", "switchcase"],
+		"body": [
+			"switch($1){",
+			"\tcase 1:",
+			"\t\t//codeblock",
+			"\t\tbreak;",
+			"\tdefault:",
+			"\t\t//codebreak",
+			"}"
+			],
+		"description": "Switch-case"
+	},
+	"case for switch": {
+		"prefix": ["case"],
+		"body": [
+			"case $1:",
+			"\t//codeblock",
+			"\tbreak;"
+			],
+		"description": "case"
+	},
+	"base forloop": {
+		"prefix": ["for", "for loop"],
+		"body": [
+			"for(int i = 0$1; i <=1; i++){",
+			"\t",
+			"}"
+			],
+		"description": "simple for loop"
+	},
+	"base whileloop": {
+		"prefix": ["while", "while loop"],
+		"body": [
+			"int i=0;$1",
+			"while(){",
+			"\t",
+			"\ti++;",
+			"}"
+			],
+		"description": "simple while loop"
+	},
+	"base do-Whileloop": {
+		"prefix": ["do while", "do-while loop"],
+		"body": [
+			"int i=0;$1",
+			"do",
+			"{",
+			"\t",
+			"\ti++;",
+			"} while ();"
+			],
+		"description": "simple while loop"
+	}
+
+}
+
+
