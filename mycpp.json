@@ -5,14 +5,18 @@
 			"#include <iostream>",
 			"",
 			"using namespace std;",
-			
+			"",
+			"//other functions here",
+			"",
 			"int main(){",
 			"",
 			"$1",
 			"",
 			"return 0;",
 			"",
-			"}"
+			"}",
+			"",
+			"//other functions here"
 			],
 		"description": "Basic Structure"
 	},
@@ -200,6 +204,24 @@
 			"} while ();"
 			],
 		"description": "simple while loop"
+	},
+	"function": {
+		"prefix": ["fun", "function"],
+		"body": [
+			"void funName$1()",
+			"{",
+			"\t",
+			"}",
+			""
+			],
+		"description": "simple while loop"
+	},
+	"tab": {
+		"prefix": ["tab", "tabcout", "couttab"],
+		"body": [
+			"<< \"\\t\" << $1"
+			],
+		"description": "tab on cout"
 	}
 
 }
