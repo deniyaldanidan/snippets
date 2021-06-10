@@ -1,0 +1,188 @@
+{
+	"right arrow": {
+			"prefix": ["right arrow"],
+			"body": [
+				"<span style='font-size:30px;'>&#8594;</span> "
+			],
+			"description": ""
+		},
+	"left arrow": {
+		"prefix": ["left arrow"],
+		"body": [
+			"<span style='font-size:30px;'>&#8592;</span>"
+		],
+		"description": ""
+	},
+	"up arrow": {
+		"prefix": ["up arrow"],
+		"body": [
+			"<span style='font-size:30px;'>&#8593;</span> "
+		],
+		"description": ""
+	},
+	"down arrow": {
+		"prefix": ["down arrow"],
+		"body": [
+			"<span style='font-size:30px;'>&#8595;</span> "
+		],
+		"description": ""
+	},
+	"sun": {
+		"prefix": ["sun symbol"],
+		"body": [
+			"<span style='font-size:15px;'>&#9728;</span> "
+		],
+		"description": ""
+	},
+	"cloud": {
+		"prefix": ["cloud symbol"],
+		"body": [
+			"<span style='font-size:15px;'>&#9729;</span> "
+		],
+		"description": ""
+	},
+	"star-filled": {
+		"prefix": ["star filled symbol"],
+		"body": [
+			"<span style='font-size:15px;'>&#9733;</span> "
+		],
+		"description": ""
+	},
+	"star-empty": {
+		"prefix": ["star empty symbol"],
+		"body": [
+			"<span style='font-size:15px;'>&#9734;</span> "
+		],
+		"description": ""
+	},
+	"box-empty": {
+		"prefix": ["box empty", "empty box", "unchecked box", "unticked box"],
+		"body": [
+			"<span style='font-size:15px;'>&#9744;</span> "
+		],
+		"description": ""
+	},
+	"box-ticked": {
+		"prefix": ["box ticked"],
+		"body": [
+			"<span style='font-size:15px;'>&#9745;</span> "
+		],
+		"description": ""
+	},
+	"box-checkcked": {
+		"prefix": ["box checked"],
+		"body": [
+			"<span style='font-size:15px;'>&#9746;</span> "
+		],
+		"description": ""
+	},
+	"left hand": {
+		"prefix": ["left hand"],
+		"body": [
+			"<span style='font-size:15px;'>&#9756;</span> "
+		],
+		"description": ""
+	},
+	"right hand": {
+		"prefix": ["right hand"],
+		"body": [
+			"<span style='font-size:15px;'>&#9758;</span> "
+		],
+		"description": ""
+	},
+	"up hand": {
+		"prefix": ["up hand"],
+		"body": [
+			"<span style='font-size:15px;'>&#9757;</span> "
+		],
+		"description": ""
+	},
+	"down hand": {
+		"prefix": ["down hand"],
+		"body": [
+			"<span style='font-size:15px;'>&#9759;</span> "
+		],
+		"description": ""
+	},
+	"danger symbol": {
+		"prefix": ["danger symbol", "skull symbol"],
+		"body": [
+			"<span style='font-size:30px;'>&#9760;</span> "
+		],
+		"description": ""
+	},
+	"link": {
+		"prefix": ["url", "link"],
+		"body": [
+			"[link]($1google.com)"
+		],
+		"description": ""
+	},
+	"image": {
+		"prefix": ["image"],
+		"body": [
+			"[image-description]($1image-link-here)"
+		],
+		"description": ""
+	},
+	"blockquotes": {
+		"prefix": ["block"],
+		"body": [
+			"\n",
+			"> \t$1"
+		],
+		"description": ""
+	},
+	"inline-code": {
+		"prefix": ["inline code"],
+		"body": [
+			"`$1`"
+		],
+		"description": ""
+	},
+	"multiline-code": {
+		"prefix": ["code"],
+		"body": [
+			"\n",
+			"````python",
+			"\t$1",
+			"\t",
+			"````"
+		],
+		"description": ""
+	},
+	"table with 2cols": {
+		"prefix": ["table 2col"],
+		"body": [
+			"\n",
+			"$1head1|head2",
+			"----|----",
+			"row1|row1",
+			"row2|row2"
+		],
+		"description": ""
+	},
+	"table with 3cols": {
+		"prefix": ["table 3col"],
+		"body": [
+			"\n",
+			"$1head1|head2|head3",
+			"----|----|----",
+			"row1|row1|row1",
+			"row2|row2|row2"
+		],
+		"description": ""
+	},
+	"table with 4cols": {
+		"prefix": ["table 4col"],
+		"body": [
+			"\n",
+			"$1head1|head2|head3|head4",
+			"----|----|----|----",
+			"row1|row1|row1|row1",
+			"row2|row2|row2|row2"
+		],
+		"description": ""
+	}
+
+}
